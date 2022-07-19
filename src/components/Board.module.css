@@ -1,0 +1,28 @@
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+.grid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 9ch 9ch 9ch;
+    gap:5px;
+ 
+}
+.Board{
+    justify-content: center;
+    border: 1rem solid #121010;
+  background: #e8e2df;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1rem;
+}
+
